@@ -1,13 +1,11 @@
 package com.peter.test;
 
-import java.util.Scanner;
+import javax.swing.*;
 
 public class Application {
 
     private static int read(String message) {
-        System.out.println(message);
-        Scanner s = new Scanner(System.in);
-        return s.nextInt();
+        return Integer.parseInt(JOptionPane.showInputDialog(message));
     }
 
     public static void main(String[] args) {
@@ -21,9 +19,9 @@ public class Application {
     }
 
     private static void printInfo(Car carToPrint) {
-        System.out.println(
-                " ClassName: " + carToPrint.getClass().getSimpleName() +
-                ". Doors: " + carToPrint.doors() +
-                ". Horse power: " + carToPrint.horsePower());
+        JOptionPane.showMessageDialog(
+                null, "ClassName: " + carToPrint.getClass().getSimpleName() + "\n" +
+                        "Doors: " + carToPrint.doors() + "\n" +
+                        "Horse power: " + carToPrint.horsePower());
     }
 }
