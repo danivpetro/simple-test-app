@@ -1,6 +1,6 @@
 package com.peter.test;
 
-public class Areytest {
+public class ArrayTest {
     public static void main(String[] args) {
         int[] sp = new int[20];
 
