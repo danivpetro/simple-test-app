@@ -1,4 +1,4 @@
-package com.peter.labs.lab2;
+package com.peter.labs.lab1;
 
 public class Task_4 {
     public static void main(String[] args) {

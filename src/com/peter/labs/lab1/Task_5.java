@@ -1,4 +1,4 @@
-package com.peter.labs.lab2;
+package com.peter.labs.lab1;
 
 public class Task_5 {
     static int a[] = new int[10];
