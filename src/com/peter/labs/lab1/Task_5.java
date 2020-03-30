@@ -2,7 +2,7 @@ package com.peter.labs.lab1;
 
 public class Task_5 {
     public static void main(String[] args) {
-        int mount_day[];
+        int[] mount_day;
         mount_day = new int[12];
         mount_day[0] = 31;
         mount_day[1] = 28;
