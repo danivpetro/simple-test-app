@@ -4,8 +4,8 @@ public class Task_2 {
     public static void main(String[] args) {
         int mouth = 2;
         String pora_roky;
-        if (mouth == 12 || mouth == 1 || mouth == 2) ;
-        pora_roky = "Зима";
+        if (mouth == 12 || mouth == 1 || mouth == 2)
+            pora_roky = "Зима";
         else if (mouth == 3 || mouth == 4 || mouth == 5)
             pora_roky = "Весна";
         else if (mouth == 6 || mouth == 7 || mouth == 8)
